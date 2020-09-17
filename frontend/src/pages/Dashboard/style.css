@@ -1,0 +1,44 @@
+.content section > p {
+  font-size: 18px;
+  margin: 32px 0px 16px;
+  color: #8c9ead;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.content section .lost-items {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+  border-radius: 8px;
+  margin: 6px 0;
+  align-items: center;
+}
+.lost-items .data-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+}
+.lost-items .data-group {
+  display: flex;
+  flex-direction: column;
+}
+.lost-items .data-group p {
+  font-size: 16px;
+}
+.lost-items .data-group p + p {
+  margin-top: 8px;
+}
+
+.lost-items .data-group .item-title {
+  font-weight: 600;
+}
+.lost-items .data-group .item-date {
+  background-color: blue;
+  width: fit-content;
+  padding: 3px 14px;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+}

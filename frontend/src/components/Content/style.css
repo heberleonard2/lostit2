@@ -1,0 +1,22 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  width: 100%;
+  background-color: #f5f9fb;
+  padding: 60px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+}
+.content form {
+  display: flex;
+  flex-direction: column;
+}
